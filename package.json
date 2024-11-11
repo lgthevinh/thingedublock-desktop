@@ -13,7 +13,7 @@
     "start": "mkdirp ./dist && electron-webpack dev --bail --display-error-details --env.minify=false --no-progress",
     "compile": "mkdirp ./dist && electron-webpack --bail --display-error-details --env.minify=false --no-progress",
     "fetch:drivers": "rimraf ./drivers && node scripts/download-driver.js",
-    "fetch:exts": "rimraf ./external-resources && node ./node_modules/openblock-resource/script/download.js  --repo=lgthevinh/thingedublock-external-resources",
+    "fetch:exts": "rimraf ./external-resources && node ./node_modules/openblock-resource/script/download.js  --repo=thingedublock/thingedublock-external-resources",
     "fetch:firmwares": "rimraf ./firmwares && node ./node_modules/openblock-link/script/download-firmwares.js",
     "fetch:tools": "rimraf ./tools && node ./node_modules/openblock-link/script/download-tools.js",
     "fetch:static": "rimraf ./static && mkdirp ./static && git clone https://github.com/openblockcc/openblock-assets.git static && rimraf ./static/.git",
@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lgthevinh/thingedublock-desktop.git"
+    "url": "git+ssh://git@github.com/thingedublock/thingedublock-desktop.git"
   },
   "dependencies": {
     "bytes": "^3.1.2",
-    "openblock-link": "git://github.com/lgthevinh/thingedublock-link.git",
-    "openblock-resource": "git://github.com/lgthevinh/thingedublock-resource.git",
+    "openblock-link": "git://github.com/thingedublock/thingedublock-link.git",
+    "openblock-resource": "git://github.com/thingedublock/thingedublock-resource.git",
     "postinstall": "^0.7.4",
     "source-map-support": "^0.5.19"
   },
@@ -81,7 +81,7 @@
     "monaco-editor-webpack-plugin": "^1.7.0",
     "nets": "^3.2.0",
     "node-abort-controller": "^3.0.1",
-    "openblock-gui": "github:openblockcc/openblock-gui#openblock-desktop-v2.5.2",
+    "openblock-gui": "github:thingedublock/thingedublock-gui",
     "openblock-l10n": "^3.15.20240704111820",
     "openblock-parse-release-message": "0.0.4",
     "os-locale": "^5.0.0",
