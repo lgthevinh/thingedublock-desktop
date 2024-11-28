@@ -1,5 +1,5 @@
 {
-  "name": "thingedublock-desktop",
+  "name": "openblock-desktop",
   "productName": "OpenBlockDesktop (ThingEdu)",
   "description": "OpenBlock as a self-contained desktop application",
   "author": "ThingEdu - Rogo Solutions",
@@ -34,7 +34,9 @@
     "url": "git+ssh://git@github.com/thingedublock/thingedublock-desktop.git"
   },
   "dependencies": {
+    "@serialport/bindings-cpp": "^12.0.1",
     "bytes": "^3.1.2",
+    "core-js": "^3.23.3",
     "openblock-link": "git://github.com/thingedublock/thingedublock-link.git",
     "openblock-resource": "git://github.com/thingedublock/thingedublock-resource.git",
     "postinstall": "^0.7.4",
@@ -81,7 +83,7 @@
     "monaco-editor-webpack-plugin": "^1.7.0",
     "nets": "^3.2.0",
     "node-abort-controller": "^3.0.1",
-    "openblock-gui": "github:thingedublock/thingedublock-gui",
+    "openblock-gui": "github:openblockcc/openblock-gui#openblock-desktop-v2.5.2",
     "openblock-l10n": "^3.15.20240704111820",
     "openblock-parse-release-message": "0.0.4",
     "os-locale": "^5.0.0",
