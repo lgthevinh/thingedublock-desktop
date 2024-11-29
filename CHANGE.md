@@ -1,5 +1,17 @@
 # Change Log
 
+## ThingEduBlock 1.0.2
+
+- **Feature**
+
+    1. Add support for the new devices from ThingEdu.
+    2. Support ESP32-C3 board.
+    
+- **Fix bug**
+
+    1. Remove some unused board.
+    2. Fix arduino-cli unable to config when the installation path not meet the requirement.
+
 ## 2.5.2
 
 - **New feature**
