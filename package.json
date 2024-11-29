@@ -2,7 +2,7 @@
   "name": "openblock-desktop",
   "productName": "OpenBlockDesktop (ThingEdu)",
   "description": "OpenBlock as a self-contained desktop application",
-  "author": "ThingEdu - Rogo Solutions",
+  "author": "ThingEdu",
   "version": "1.0.2",
   "license": "MIT",
   "scripts": {
