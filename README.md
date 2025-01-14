@@ -1,4 +1,4 @@
-# ThingEduBlock Desktop | By ThingEdu - Rogo Solutions
+# ThingEduBlock Desktop | By ThingEdu
 
 ## Introduction
 
